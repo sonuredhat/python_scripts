@@ -41,8 +41,8 @@ def raiseLog():
     logger.log_info("this is info Log")
     logger.log_warning("this is warning Log")
 
-## Sample Logs
-```python
+# Sample Logs
+
 2025-05-02 12:34:56,789 - INFO_123e4567-e89b-12d3-a456-426614174000 - this is info Log - [raiseLog:example.py:15]
 2025-05-02 12:34:56,790 - WARNING_123e4567-e89b-12d3-a456-426614174000 - this is warning Log - [raiseLog:example.py:16]
 
