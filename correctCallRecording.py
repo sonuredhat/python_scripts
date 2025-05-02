@@ -1,5 +1,4 @@
 import os
-import datetime
 import shutil
 import logging
 from datetime import datetime
