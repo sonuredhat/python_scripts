@@ -26,7 +26,7 @@ class CustomLogger:
         ch = logging.StreamHandler()
         ch.setLevel(logging.DEBUG)
         console_formatter = logging.Formatter(
-            "%(asctime)s - %(levelname)s_%(logUUID)s - %(message)s - [%(funcName)s:%(filename)s:%(lineno)d]"
+            "[%(asctime)s] - %(levelname)s_%(logUUID)s - %(message)s - [%(funcName)s:%(filename)s:%(lineno)d]"
         )
         ch.setFormatter(console_formatter)
         ch.addFilter(self.uuid_filter)
